@@ -1,0 +1,117 @@
+@media (max-width:1200px){
+	.col-20{
+		width: 30%;
+		margin-top: 10px;
+	}
+	.row-cus-cat{
+	justify-content: flex-start;
+}
+.swiper-pagination-cus {
+    text-align: unset!important;
+    top: 85%!important;
+}
+.form-cus{
+	margin-left: 1rem!important;
+}
+.form-cus input {
+    border-radius: 50px;
+    width: 200px!important;
+    font-size: 14px;
+    
+}
+}
+
+@media (max-width:991px){
+	
+	.inner-left-jour{
+		padding-left: 50px;
+	}
+	.form-cus{
+		justify-content: center;
+		margin-top: 20px;
+	}
+	.navbar-nav-cus{
+		align-items: center;
+	}
+	.navbar-nav-cus li{
+		margin: 10px 0;
+	}
+	.border-right-grey:nth-child(3),.border-right-grey:nth-child(6),.border-right-grey:nth-child(9){
+		border-right: 0px;
+	}
+	.border-right-grey:nth-child(4),.border-right-grey:nth-child(8){
+	border-right: 2px solid #9D9D9D;
+}
+.set-r{
+	display: none;
+}
+.btns-filters{
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-start;
+}
+}
+@media (max-width:767px){
+	.col-20{
+		width: 45%;
+	}
+	.inner-left-jour{
+		padding-top: 50px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.btns-apps{
+		justify-content: center;
+	}
+	.swiper-pagination-cus {
+    text-align: unset!important;
+    top: 39%!important;
+	}
+	.set-hero{
+		padding: 0px!important;
+		height: 55vh;
+	}
+	.set-hero h2{
+		font-size: 30px;
+	}
+	.set-hero p{
+		font-size: 18px
+	}
+	.hero-back-slider{
+		background-size: cover!important;
+		background-position: center!important;
+	}
+
+.border-right-grey:nth-child(2),.border-right-grey:nth-child(4),.border-right-grey:nth-child(6),.border-right-grey:nth-child(8),.border-right-grey:nth-child(10){
+		border-right: 0px;
+	}
+	.border-right-grey:nth-child(3),.border-right-grey:nth-child(9){
+		border-right: 2px solid #9D9D9D;
+	}
+	.btns-filters{
+	flex-direction: row;
+	
+}
+}
+
+@media (max-width:576px){
+	.col-20{
+		width: 100%;
+	}
+	.text-center-sm{
+	text-align: center;
+}
+.swiper-pagination-cus{
+	display: none!important;
+}
+	.border-right-grey{
+		border-right: 0px!important;
+	}
+	.card-horizontal .row{
+		flex-direction: column;
+		gap: 15px;
+	}
+	.form-group-bussiness-sel select{
+	width: unset;
+}
+}

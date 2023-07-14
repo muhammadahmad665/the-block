@@ -1,0 +1,8 @@
+@section('links')
+@endsection
+@extends('welcome')
+@section('contentarea')
+
+@endsection
+@section('script')
+@endsection
